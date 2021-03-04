@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="361dp"
+        android:layout_height="689dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="career stats"
+            android:textSize="42sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="?android:attr/listDivider" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="name"
+                android:textSize="18sp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="daniel" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="raph" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="josh" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="dads" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/divider5"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="?android:attr/listDivider" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="points"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/daniel_stats_pts"
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/raph_stats_pts"
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/josh_stats_pts"
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/dads_stats_pts"
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="30dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="rebounds"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/daniel_stats_rebs"
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/raph_stats_rebs"
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/josh_stats_rebs"
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/dads_stats_rebs"
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="30dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="blocks"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/daniel_stats_blks"
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/raph_stats_blks"
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/josh_stats_blks"
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/dads_stats_blks"
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="30dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="wins"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/daniel_stats_wins"
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/raph_stats_wins"
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/josh_stats_wins"
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/dads_stats_wins"
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="30dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="losses"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/daniel_stats_lose"
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/raph_stats_lose"
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/josh_stats_lose"
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/dads_stats_lose"
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="30dp" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <View
+            android:id="@+id/divider6"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="?android:attr/listDivider" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="advanced stats" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="PPG"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/daniel_stats_ppg"
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/raph_stats_ppg"
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/josh_stats_ppg"
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/dads_stats_ppg"
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="RPG"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/daniel_stats_rpg"
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/raph_stats_rpg"
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/josh_stats_rpg"
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/dads_stats_rpg"
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="BPG"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/daniel_stats_bpg"
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/raph_stats_bpg"
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/josh_stats_bpg"
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/dads_stats_bpg"
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="win rate"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/daniel_stats_wrate"
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/raph_stats_wrate"
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/josh_stats_wrate"
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/dads_stats_wrate"
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
